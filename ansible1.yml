@@ -1,0 +1,12 @@
+---                                                                                                        
+- name: Erlang                                                                                             
+  hosts: all4                                                                                                                       
+  become: true                                                                                                          
+  become_method: sudo                                                                                         
+  tasks:                                                                                                
+    - name: updating package lists
+      apt:
+      update_cache: yes
+      cache_valid_time: 2400
+
+ 
