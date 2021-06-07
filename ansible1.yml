@@ -1,6 +1,6 @@
 ---                                                                                                        
 - name: Erlang                                                                                             
-  hosts: all4                                                                                                                       
+  hosts: all                                                                                                                      
   become: true                                                                                                          
   become_method: sudo                                                                                         
   tasks:                                                                                                
